@@ -11,7 +11,7 @@
   color: #000;
 }
 
-.link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -84,10 +84,10 @@
 .description {
   display: flex;
   justify-content: center;
+  padding: 100px 0 0 0;
 }
 
 .two-columns {
-  padding: 100px 0 0 0;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -122,10 +122,14 @@
   font-weight: 600;
 }
 
+.digits {
+  padding: 100px 0;
+}
+
 .section-title {
   text-align: center;
   margin: 0 auto;
-  padding: 100px 0 20px;
+  padding-bottom: 20px;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -143,7 +147,7 @@
 
 .table {
   list-style: none;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   width: 1100px;
   padding: 0;
   display: flex;
@@ -213,20 +217,28 @@
 
 .kaufman {
   background-color: #1f1f1f;
-  color: white;
   position: relative;
   overflow: hidden;
+  z-index: 1;
+  padding: 90px 0;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
 }
 
 .table_theme_dark {
-  padding-bottom: 90px;
   margin-bottom: 0;
+  color: white;
 }
 
 .table__cell_theme_dark {
   width: 200px;
   padding-top: 80px;
-  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -237,6 +249,7 @@
   top: 0;
   width: 877px;
   height: 877px;
+  z-index: -1;
 }
 
 .footer {
@@ -257,7 +270,7 @@
   flex: 1;
 }
 
-.footer__column_content_copyright {
+.footer__column_content-copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;

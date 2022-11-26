@@ -5,6 +5,7 @@
   font-size: 30px;
   font-weight: normal;
   transition: opacity ease .5s;
+  align-self: flex-start;
 }
 
 
